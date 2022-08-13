@@ -7,9 +7,12 @@
     "@emotion/styled": "11.10.0",
     "@mui/icons-material": "5.8.4",
     "@mui/material": "5.10.0",
+    "i": "^0.3.7",
+    "npm": "^8.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "3.2.0",
+    "react-intl": "^6.0.5",
     "react-loader-spinner": "5.1.7-beta.1",
     "react-router-dom": "6.3.0",
     "react-scripts": "5.0.1"
