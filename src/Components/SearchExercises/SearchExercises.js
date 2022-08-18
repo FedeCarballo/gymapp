@@ -39,7 +39,7 @@ function SearchExercises({setExercises,bodyPart, setBodyPart}) {
       <Typography fontWeight={700} sx={{
         fontSize: {
           lg: "44px", xs:"30px"}}}
-          mb="50px" textAlign="center">
+          mb="50px" textAlign="center" color="#fff">
         Awesome Exercises you <br /> should know
       </Typography>
       <Box position="relative" mb="72px">
@@ -76,7 +76,7 @@ function SearchExercises({setExercises,bodyPart, setBodyPart}) {
         </Button>
       </Box>
       <Box sx={{ position:'relative', width:'100%', p:'20px'}}>
-        <HorizontalScrollbar data={bodyparts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+        <HorizontalScrollbar data={bodyparts} bodyPart={bodyPart} setBodyPart={setBodyPart} isBodyParts/>
       </Box>
 
     </Stack>
