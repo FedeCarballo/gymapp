@@ -69,4 +69,9 @@ function Exercises({exercises, setExercises, bodyPart}) {
   )
 }
 
+
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
 export default Exercises
